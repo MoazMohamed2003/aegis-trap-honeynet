@@ -1,0 +1,6 @@
+requests
+geoip2
+pymongo
+google-cloud-compute
+google-auth
+stix2

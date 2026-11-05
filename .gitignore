@@ -1,0 +1,37 @@
+# ---- Secrets (NEVER commit these) ----
+.env
+*.env
+gcp-key.json
+*-key.json
+service-account*.json
+honeypot_key
+honeypot_key.pub
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ---- Licensed / large data files ----
+# MaxMind GeoLite2 databases cannot be redistributed
+*.mmdb
+GeoLite2-*.tar.gz
+
+# ---- Runtime output ----
+stix_fallback/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
